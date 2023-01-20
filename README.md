@@ -11,7 +11,7 @@ To run the project
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Available Scripts
+## Source questions
 
 ### How much time did you spend on this test?
 3 hours

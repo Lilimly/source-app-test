@@ -1,0 +1,78 @@
+.login-page {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $main-background-color;
+
+    .login-page__container {
+        background-color: $block-background-color;
+        width: 40%;
+        height: max-content;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 10%;
+        margin: auto;
+
+        .login-page__title {
+            font-weight: bold;
+        }
+
+        .login-page__form-container {
+            display: flex;
+            flex-direction: column;
+
+            .login-page__input {
+                width: 100%;
+                border-radius: 2px;
+                margin: 2% auto;
+                border: 1px solid $main-text-color;
+                padding: 2%;
+            }
+
+            .login-page__button {
+                background-color: $button-color;
+                color: $block-background-color;
+                padding: 1%;
+                border-radius: 2px;
+                margin: 2% auto;
+                border: 1px solid $button-color;
+                width: 100%;
+            }
+
+            .login-page__info-container {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin-bottom: 30px;
+
+                .login-page__checkbox-container {
+                    display: flex;
+                    justify-content: center;
+
+                    .login-page__checkbox-label {
+                        font-size: 10px;
+                        margin: auto;
+                    }
+                }
+            }
+
+            .login-page__info-text {
+                font-size: 10px;
+                color: $button-color;
+            }
+
+            .login-page__account-text {
+                font-size: 11px;
+
+                .login-page__account-text--link {
+                    color: $button-color;
+                }
+            }
+        }
+    }
+}
